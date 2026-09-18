@@ -1,0 +1,38 @@
+# FlockSense Sensor Recommendation Rules (Prototype Defaults)
+# Configurable rules for deriving camera, microphone, and zone recommendations
+# Note: This represents prototype engineering defaults, NOT a scientifically validated veterinary requirement.
+
+rules:
+  - max_flock_size: 50
+    cameras: 1
+    microphones: 1
+    zones: 1
+  - max_flock_size: 150
+    cameras: 2
+    microphones: 1
+    zones: 2
+  - max_flock_size: 300
+    cameras: 4
+    microphones: 2
+    zones: 4
+  - max_flock_size: 500
+    cameras: 6
+    microphones: 3
+    zones: 6
+  - max_flock_size: 750
+    cameras: 8
+    microphones: 4
+    zones: 8
+  - max_flock_size: 1000
+    cameras: 10
+    microphones: 5
+    zones: 10
+
+large_flock_rules:
+  birds_per_camera: 100
+  camera_to_mic_ratio: 2.0
+
+coverage:
+  max_sqm_per_camera: 60.0
+  basis: "PROTOTYPE_RECOMMENDATION"
+  disclaimer: "This is a suggested starting setup based on flock size and shed coverage. It is an engineering recommendation for prototype testing, not a scientifically validated poultry requirement."

@@ -1,0 +1,36 @@
+FLOCKSENSE GROUP-AWARE DATASET SPLITS SUMMARY
+============================================================
+
+Random Seed: 42
+Total files: 346
+Total groups: 51
+
+--- TRAIN SET ---
+Total samples: 235 (67.9%)
+Total duration: 8253.7 s (137.6 min)
+Unique groups: 35
+  * Healthy: 98 (41.7% of split)
+  * Noise: 58 (24.7% of split)
+  * Unhealthy: 79 (33.6% of split)
+
+--- VALIDATION SET ---
+Total samples: 56 (16.2%)
+Total duration: 1765.1 s (29.4 min)
+Unique groups: 8
+  * Healthy: 21 (37.5% of split)
+  * Noise: 14 (25.0% of split)
+  * Unhealthy: 21 (37.5% of split)
+
+--- TEST SET ---
+Total samples: 55 (15.9%)
+Total duration: 1362.7 s (22.7 min)
+Unique groups: 8
+  * Healthy: 20 (36.4% of split)
+  * Noise: 14 (25.5% of split)
+  * Unhealthy: 21 (38.2% of split)
+
+DATA LEAKAGE VERIFICATION:
+Train & Val Group Overlap: 0 (Expected 0)
+Train & Test Group Overlap: 0 (Expected 0)
+Val & Test Group Overlap: 0 (Expected 0)
+Zero data leakage confirmed: No recording session group appears in more than one split.

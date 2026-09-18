@@ -1,0 +1,38 @@
+# FlockSense Vision & Behavior Tracking Configuration
+
+roboflow:
+  model_id: "chicken-behavior-detection-within-real-time/17"
+  api_url: "https://serverless.roboflow.com"
+  confidence_threshold: 0.30
+
+inference_sampling:
+  # Process every Nth frame with Roboflow API to conserve bandwidth
+  behavior_inference_every_n_frames: 10
+  # Frame dimensions and compression sent to API
+  inference_max_width: 960
+  jpeg_quality: 75
+
+tracking:
+  tracker_type: "bytetrack"
+  track_activation_threshold: 0.25
+  lost_track_buffer: 30       # Frames to preserve track state during brief occlusion
+  minimum_matching_threshold: 0.80
+  frame_rate: 30
+
+behavior_smoothing:
+  window_size: 5              # Number of recent predictions for temporal voting
+  stale_threshold_seconds: 4.0 # Flag as STALE if no model prediction within N seconds
+
+zones:
+  config_file: "config/zones.json"
+  debounce_frames: 3          # Require N consistent frames before confirming zone transition
+
+movement:
+  stationary_displacement_threshold: 15.0 # Pixels movement threshold
+  stationary_time_threshold_seconds: 3.0   # Seconds to mark as stationary
+
+outputs:
+  video_path: "outputs/vision/videos/flocksense_behavior_tracking.mp4"
+  tracking_jsonl_path: "outputs/vision/logs/tracking_data.jsonl"
+  events_csv_path: "outputs/vision/logs/track_events.csv"
+  report_path: "outputs/vision/reports/FlockSense_Vision_Phase_Report.md"

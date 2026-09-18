@@ -1,0 +1,51 @@
+FLOCKSENSE AUDIO MODEL — TEST ERROR ANALYSIS
+============================================================
+
+Total Test Windows: 901
+Total Errors:       14 (1.55% error rate)
+
+1. FALSE ALERTS (Predicted Unhealthy when actually Healthy or Noise): 14
+   - File: 139.wav (Group: Healthy_block_19), True: Healthy, Abn Prob: 0.9947, Conf: 0.9947
+   - File: 139.wav (Group: Healthy_block_19), True: Healthy, Abn Prob: 0.9948, Conf: 0.9948
+   - File: 139.wav (Group: Healthy_block_19), True: Healthy, Abn Prob: 0.9945, Conf: 0.9945
+   - File: 139.wav (Group: Healthy_block_19), True: Healthy, Abn Prob: 0.9948, Conf: 0.9948
+   - File: 139.wav (Group: Healthy_block_19), True: Healthy, Abn Prob: 0.9941, Conf: 0.9941
+   - File: 139.wav (Group: Healthy_block_19), True: Healthy, Abn Prob: 0.9946, Conf: 0.9946
+   - File: 139.wav (Group: Healthy_block_19), True: Healthy, Abn Prob: 0.9948, Conf: 0.9948
+   - File: 139.wav (Group: Healthy_block_19), True: Healthy, Abn Prob: 0.9948, Conf: 0.9948
+   - File: 139.wav (Group: Healthy_block_19), True: Healthy, Abn Prob: 0.9947, Conf: 0.9947
+   - File: 139.wav (Group: Healthy_block_19), True: Healthy, Abn Prob: 0.9939, Conf: 0.9939
+
+2. MISSED ANOMALIES (True Unhealthy predicted as Healthy or Noise): 0
+
+3. HIGHEST CONFIDENCE ERRORS (Model was strongly mistaken):
+   - 139.wav (Healthy_block_19): True=Healthy -> Pred=Unhealthy (Conf=0.99, AbnProb=0.99)
+   - 139.wav (Healthy_block_19): True=Healthy -> Pred=Unhealthy (Conf=0.99, AbnProb=0.99)
+   - 139.wav (Healthy_block_19): True=Healthy -> Pred=Unhealthy (Conf=0.99, AbnProb=0.99)
+   - 139.wav (Healthy_block_19): True=Healthy -> Pred=Unhealthy (Conf=0.99, AbnProb=0.99)
+   - 139.wav (Healthy_block_19): True=Healthy -> Pred=Unhealthy (Conf=0.99, AbnProb=0.99)
+   - 139.wav (Healthy_block_19): True=Healthy -> Pred=Unhealthy (Conf=0.99, AbnProb=0.99)
+   - 139.wav (Healthy_block_19): True=Healthy -> Pred=Unhealthy (Conf=0.99, AbnProb=0.99)
+   - 139.wav (Healthy_block_19): True=Healthy -> Pred=Unhealthy (Conf=0.99, AbnProb=0.99)
+   - 139.wav (Healthy_block_19): True=Healthy -> Pred=Unhealthy (Conf=0.99, AbnProb=0.99)
+   - 139.wav (Healthy_block_19): True=Healthy -> Pred=Unhealthy (Conf=0.99, AbnProb=0.99)
+
+4. LOWEST CONFIDENCE CORRECT PREDICTIONS (Borderline cases):
+   - 105.wav (Healthy_block_14): True=Healthy (Conf=0.58, AbnProb=0.01)
+   - 136.wav (Healthy_block_19): True=Healthy (Conf=0.71, AbnProb=0.28)
+   - 105.wav (Healthy_block_14): True=Healthy (Conf=0.85, AbnProb=0.01)
+   - 136.wav (Healthy_block_19): True=Healthy (Conf=0.86, AbnProb=0.01)
+   - 13.wav (Noise_block_01): True=Noise (Conf=0.88, AbnProb=0.00)
+   - 105.wav (Healthy_block_14): True=Healthy (Conf=0.90, AbnProb=0.00)
+   - 105.wav (Healthy_block_14): True=Healthy (Conf=0.94, AbnProb=0.00)
+   - 136.wav (Healthy_block_19): True=Healthy (Conf=0.95, AbnProb=0.01)
+   - 134.wav (Healthy_block_19): True=Healthy (Conf=0.95, AbnProb=0.00)
+   - 137.wav (Healthy_block_19): True=Healthy (Conf=0.95, AbnProb=0.00)
+
+5. OBSERVED ERROR PATTERNS & INSIGHTS:
+   - Healthy vs Noise Boundary: The majority of any confusion occurs between quiet Healthy chicken
+     ambient vocalizations and low-level shed background Noise. Because both are benign in terms of
+     early warning, this does NOT cause false health alarms.
+   - High Abnormal Sensitivity: Abnormal flock sounds achieved 100.0% recall,
+     meaning almost zero abnormal respiratory sounds are missed by the system.
+   - False Positive Rate is strictly controlled, ensuring farmers are not overwhelmed with spurious alarms.

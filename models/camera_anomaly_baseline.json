@@ -1,0 +1,190 @@
+{
+  "validation_status": "PROTOTYPE_ONLY_SYNTHETIC_DATA",
+  "training_data_type": "SYNTHETIC",
+  "real_world_validated": false,
+  "clinical_validated": false,
+  "feature_names": [
+    "movement_rate",
+    "movement_variance",
+    "distance_travelled_pixels",
+    "stationary_duration",
+    "stationary_ratio",
+    "standing_ratio",
+    "feeding_ratio",
+    "sitting_ratio",
+    "spreading_ratio",
+    "preening_ratio",
+    "resting_ratio",
+    "walking_ratio",
+    "behaviour_transition_rate",
+    "distance_to_nearest_bird",
+    "distance_to_flock_centroid",
+    "relative_isolation_score",
+    "relative_activity",
+    "zone_transition_count"
+  ],
+  "baseline_statistics": {
+    "movement_rate": {
+      "mean": 15.2671,
+      "median": 6.6424,
+      "std": 13.6732,
+      "min": 0.0,
+      "max": 54.0,
+      "q25": 2.6788,
+      "q75": 26.6037
+    },
+    "movement_variance": {
+      "mean": 44.2665,
+      "median": 11.3116,
+      "std": 49.8179,
+      "min": 0.0,
+      "max": 194.4,
+      "q25": 3.64,
+      "q75": 72.7519
+    },
+    "distance_travelled_pixels": {
+      "mean": 76.4549,
+      "median": 30.4962,
+      "std": 70.9855,
+      "min": 0.0,
+      "max": 286.0,
+      "q25": 13.4625,
+      "q75": 115.3034
+    },
+    "stationary_duration": {
+      "mean": 3.174,
+      "median": 3.2656,
+      "std": 1.2294,
+      "min": 0.0,
+      "max": 5.0,
+      "q25": 1.9707,
+      "q75": 4.1889
+    },
+    "stationary_ratio": {
+      "mean": 0.6274,
+      "median": 0.6345,
+      "std": 0.2491,
+      "min": 0.0,
+      "max": 1.0,
+      "q25": 0.4168,
+      "q75": 0.829
+    },
+    "standing_ratio": {
+      "mean": 0.4256,
+      "median": 0.4833,
+      "std": 0.1981,
+      "min": 0.0,
+      "max": 0.7221,
+      "q25": 0.2782,
+      "q75": 0.5818
+    },
+    "feeding_ratio": {
+      "mean": 0.3335,
+      "median": 0.2578,
+      "std": 0.2752,
+      "min": 0.0,
+      "max": 1.0,
+      "q25": 0.1062,
+      "q75": 0.5509
+    },
+    "sitting_ratio": {
+      "mean": 0.0632,
+      "median": 0.0526,
+      "std": 0.0634,
+      "min": 0.0,
+      "max": 0.5,
+      "q25": 0.0125,
+      "q75": 0.0989
+    },
+    "spreading_ratio": {
+      "mean": 0.0154,
+      "median": 0.0001,
+      "std": 0.0229,
+      "min": 0.0,
+      "max": 0.1205,
+      "q25": 0.0,
+      "q75": 0.0251
+    },
+    "preening_ratio": {
+      "mean": 0.1045,
+      "median": 0.0656,
+      "std": 0.1128,
+      "min": 0.0,
+      "max": 0.3955,
+      "q25": 0.0009,
+      "q75": 0.1904
+    },
+    "resting_ratio": {
+      "mean": 0.015,
+      "median": 0.0,
+      "std": 0.024,
+      "min": 0.0,
+      "max": 0.1047,
+      "q25": 0.0,
+      "q75": 0.0246
+    },
+    "walking_ratio": {
+      "mean": 0.0428,
+      "median": 0.0311,
+      "std": 0.0479,
+      "min": 0.0,
+      "max": 0.1803,
+      "q25": 0.0,
+      "q75": 0.067
+    },
+    "behaviour_transition_rate": {
+      "mean": 0.1669,
+      "median": 0.1663,
+      "std": 0.061,
+      "min": 0.0,
+      "max": 0.2933,
+      "q25": 0.1351,
+      "q75": 0.2106
+    },
+    "distance_to_nearest_bird": {
+      "mean": 283.8196,
+      "median": 279.0634,
+      "std": 48.5218,
+      "min": 183.5604,
+      "max": 397.0788,
+      "q25": 247.9089,
+      "q75": 317.1086
+    },
+    "distance_to_flock_centroid": {
+      "mean": 191.188,
+      "median": 187.343,
+      "std": 32.8444,
+      "min": 124.6426,
+      "max": 273.8696,
+      "q25": 168.538,
+      "q75": 212.2348
+    },
+    "relative_isolation_score": {
+      "mean": 0.2652,
+      "median": 0.2664,
+      "std": 0.0486,
+      "min": 0.1501,
+      "max": 0.38,
+      "q25": 0.2283,
+      "q75": 0.3019
+    },
+    "relative_activity": {
+      "mean": 1.0308,
+      "median": 0.9423,
+      "std": 0.3283,
+      "min": 0.5955,
+      "max": 2.0686,
+      "q25": 0.7935,
+      "q75": 1.2053
+    },
+    "zone_transition_count": {
+      "mean": 0.252,
+      "median": 0.0,
+      "std": 0.4342,
+      "min": 0.0,
+      "max": 1.0,
+      "q25": 0.0,
+      "q75": 0.5
+    }
+  }
+}

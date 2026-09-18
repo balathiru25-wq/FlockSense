@@ -1,0 +1,91 @@
+devices:
+- device_id: cam-001
+  name: Shed 1 Feeding Area Camera
+  device_type: CAMERA_WITH_AUDIO
+  connection_type: DEMO_FEED
+  host: 192.168.1.50
+  stream_url: demo://shed_cam1_feed
+  farm: Main Poultry Farm
+  shed: Broiler Shed A
+  zone: ZONE_1
+  assigned_zone_ids:
+  - ZONE_1
+  enabled: true
+  status: ONLINE
+  has_video: true
+  has_audio: true
+  is_demo: true
+  last_seen: 1789529233.0762944
+  fps: 0.0
+  latency_ms: 0.0
+  error_message: null
+  metadata: {}
+- device_id: cam-002
+  name: Shed 1 Roost Central Camera
+  device_type: CAMERA
+  connection_type: DEMO_FEED
+  host: 192.168.1.51
+  stream_url: demo://shed_cam2_feed
+  farm: Main Poultry Farm
+  shed: Broiler Shed A
+  zone: ZONE_2
+  assigned_zone_ids:
+  - ZONE_2
+  enabled: true
+  status: ONLINE
+  has_video: true
+  has_audio: false
+  is_demo: true
+  last_seen: 1789529233.0962324
+  fps: 0.0
+  latency_ms: 0.0
+  error_message: null
+  metadata: {}
+- device_id: mic-001
+  name: Shed 1 North Acoustic Node
+  device_type: MICROPHONE
+  connection_type: NETWORK_AUDIO
+  host: 192.168.1.60
+  stream_url: http://192.168.1.60:8080/audio.wav
+  farm: Main Poultry Farm
+  shed: Broiler Shed A
+  zone: ZONE_4
+  assigned_zone_ids:
+  - ZONE_4
+  - ZONE_5
+  - ZONE_6
+  - ZONE_3
+  enabled: true
+  status: ONLINE
+  has_video: false
+  has_audio: true
+  is_demo: true
+  last_seen: 1789529231.709871
+  fps: 0.0
+  latency_ms: 0.0
+  error_message: null
+  metadata: {}
+- device_id: mic-002
+  name: Shed 1 Central Distress Mic
+  device_type: MICROPHONE
+  connection_type: NETWORK_AUDIO
+  host: 192.168.1.61
+  stream_url: http://192.168.1.61:8080/audio.wav
+  farm: Main Poultry Farm
+  shed: Broiler Shed A
+  zone: ZONE_7
+  assigned_zone_ids:
+  - ZONE_7
+  - ZONE_8
+  - ZONE_9
+  - ZONE_10
+  enabled: true
+  status: ONLINE
+  has_video: false
+  has_audio: true
+  is_demo: true
+  last_seen: 1789529231.7379117
+  fps: 0.0
+  latency_ms: 0.0
+  error_message: null
+  metadata: {}

@@ -1,0 +1,66 @@
+# FlockSense Multimodal Audio + Camera Fusion Configuration
+# NOTE: All weights and thresholds in this file are PROVISIONAL DEVELOPMENT WEIGHTS.
+# They are designed for architectural verification, system stability, and prototyping.
+# Real-world clinical or veterinary validation has NOT been performed.
+
+fusion_mode: "GLOBAL_AUDIO" # Active mode: "GLOBAL_AUDIO". Future-ready mode: "LOCALIZED_AUDIO"
+validation_status: "PROTOTYPE_ONLY_SYNTHETIC_DATA"
+real_world_validated: false
+clinical_validated: false
+
+# Temporal synchronization
+synchronization:
+  audio_video_offset_seconds: 0.0 # Time difference adjustment between audio and video clock
+  audio_context_timeout_seconds: 15.0 # How long an audio event remains active as flock urgency context
+  event_deduplication_window_seconds: 2.0 # Merge acoustic events occurring within this window
+
+# Provisional Inspection Priority Weights (0.0 to 1.0)
+# Sum of core weights = 1.0. Audio urgency acts as contextual multiplier or additive modifier.
+# In GLOBAL_AUDIO mode, individual ranking is primarily driven by camera behavioral evidence.
+weights:
+  camera_deviation_weight: 0.50     # Direct behavioral deviation score from Isolation Forest (0-100)
+  persistence_weight: 0.25           # Weight given to duration & consistency of abnormal windows
+  isolation_weight: 0.15             # Spatial isolation / flock detachment score
+  activity_deviation_weight: 0.10    # Divergence in relative movement vs flock median
+
+  # Global audio urgency contextual modifier
+  # When active, global audio alert applies an urgency boost to already elevated camera candidates.
+  # Camera-normal birds receive ZERO or minimal boost to avoid false attribution.
+  global_audio_urgency_max_boost: 15.0 # Max points added to inspection priority for deviating birds
+  audio_boost_camera_threshold: 45.0   # Minimum camera deviation required to receive audio urgency boost
+
+# Temporal Persistence & Memory Settings
+temporal_memory:
+  score_history_length: 6            # Number of historical camera windows retained per track
+  smoothing_alpha: 0.35              # Exponential moving average factor
+  min_windows_for_alert: 2           # Consecutive or frequent elevated windows required for ALERT status
+  evidence_decay_seconds: 20.0       # Half-life/decay interval for old behavioural evidence
+  decay_rate_per_normal_window: 0.25 # Multiplier reduction when normal behaviour is observed
+
+# Inspection Priority Status Thresholds (0 - 100)
+# Threshold status: PROVISIONAL_DEVELOPMENT_THRESHOLDS
+thresholds:
+  status_levels:
+    NORMAL:
+      min_score: 0.0
+      max_score: 45.0
+      description: "Routine monitoring; behaviour conforms to expected flock distribution."
+    WATCH:
+      min_score: 45.0
+      max_score: 70.0
+      description: "Moderate behavioural deviation or elevated risk; inspect bird when practical."
+    ALERT:
+      min_score: 70.0
+      max_score: 100.0
+      description: "Persistent significant deviation; prompt physical inspection recommended."
+
+# Candidate Ranker Settings
+candidate_ranker:
+  default_top_n: 5                   # Number of top inspection candidates returned to dashboard/farmer
+  include_temporarily_lost: true     # Retain lost tracks with last known coordinates & priority
+  lost_track_expiry_seconds: 30.0    # Duration before marking TEMPORARILY_LOST as TRACK_ENDED
+
+# Logging and Output paths
+logging:
+  fusion_events_jsonl: "outputs/fusion/logs/fusion_events.jsonl"
+  alerts_csv: "outputs/fusion/logs/alerts.csv"

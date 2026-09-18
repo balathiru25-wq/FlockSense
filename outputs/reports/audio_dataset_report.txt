@@ -1,0 +1,52 @@
+======================================================================
+FLOCKSENSE AUDIO DATASET INSPECTION REPORT
+======================================================================
+
+1. DATASET LOCATION:
+   Absolute Path: C:\Users\silus\OneDrive\Desktop\Flocksense\Poultry Vocalization Signal Dataset for Early Disease Detection\Poultry Vocalization Signal Dataset for Early Disease Detection\Chicken_Audio_Dataset
+   Project-Relative: Poultry Vocalization Signal Dataset for Early Disease Detection\Poultry Vocalization Signal Dataset for Early Disease Detection\Chicken_Audio_Dataset
+
+2. OVERVIEW & TOTALS:
+   Total Audio Files: 346
+   Total Duration: 11381.46 seconds (189.69 minutes, 3.16 hours)
+   Total Dataset Size: 1042.07 MB
+
+3. CLASS DISTRIBUTION:
+   - Healthy: 139 files (40.2%)
+   - Noise: 86 files (24.9%)
+   - Unhealthy: 121 files (35.0%)
+
+4. TASK FORMULATION:
+   The dataset contains 3 primary categories: 'Healthy', 'Unhealthy', 'Noise'.
+   In the FlockSense early-warning framework:
+   - Healthy -> NORMAL flock vocalization baseline
+   - Unhealthy -> ABNORMAL flock vocalization (acoustic anomaly / symptoms)
+   - Noise -> Farm background sound (feeders, fans, machinery, environmental)
+   The core model can learn a 3-class classifier or a targeted NORMAL vs ABNORMAL detector
+   with NOISE either as an explicit rejection/environmental class or separate category.
+
+5. DURATION STATISTICS:
+   Minimum Duration: 0.4611 s
+   Maximum Duration: 906.2005 s
+   Mean Duration:    32.8944 s
+   Median Duration:  24.3211 s
+
+6. AUDIO ENCODING & FORMATS:
+   Sample Rate Distribution:
+     * 48000 Hz: 346 files (100.0%)
+   Channel Distribution:
+     * Mono (1): 346 files (100.0%)
+
+7. DATASET INTEGRITY & ANOMALIES:
+   Corrupted / Undecodable Files: 0
+   Empty Files (0 bytes): 0
+   Extremely Short Files (< 0.5s): 1
+     - C:\Users\silus\OneDrive\Desktop\Flocksense\Poultry Vocalization Signal Dataset for Early Disease Detection\Poultry Vocalization Signal Dataset for Early Disease Detection\Chicken_Audio_Dataset\Unhealthy\99.wav: 0.461 s
+
+8. DUPLICATE & GROUP DETECTION:
+   Exact File Hash Duplicates: 0 groups
+     None found.
+
+9. METADATA FILES FOUND IN REPOSITORY:
+   No external metadata files (CSV/JSON/Excel) found in dataset directory.
+

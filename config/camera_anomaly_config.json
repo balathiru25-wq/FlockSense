@@ -1,0 +1,54 @@
+{
+  "algorithm": "IsolationForest",
+  "random_state": 42,
+  "n_estimators": 100,
+  "contamination": 0.1,
+  "contamination_status": "PROVISIONAL_DEVELOPMENT_VALUE",
+  "feature_names": [
+    "movement_rate",
+    "movement_variance",
+    "distance_travelled_pixels",
+    "stationary_duration",
+    "stationary_ratio",
+    "standing_ratio",
+    "feeding_ratio",
+    "sitting_ratio",
+    "spreading_ratio",
+    "preening_ratio",
+    "resting_ratio",
+    "walking_ratio",
+    "behaviour_transition_rate",
+    "distance_to_nearest_bird",
+    "distance_to_flock_centroid",
+    "relative_isolation_score",
+    "relative_activity",
+    "zone_transition_count"
+  ],
+  "feature_window_duration_seconds": 5.0,
+  "training_data_source": "outputs/vision/features/bird_behavior_features.csv",
+  "training_data_type": "SYNTHETIC",
+  "validation_status": "PROTOTYPE_ONLY_SYNTHETIC_DATA",
+  "real_world_validated": false,
+  "clinical_validated": false,
+  "scaler_usage": "StandardScaler",
+  "model_version": "1.0.0-synthetic-proto",
+  "score_mapping": {
+    "type": "affine_clamped_decision_function",
+    "formula": "deviation_score = clip(50.0 - (raw_decision_score * 160.0), 0.0, 100.0)",
+    "range": "0-100",
+    "interpretation": "lower=closer to baseline, higher=greater behavioural deviation"
+  },
+  "thresholds": {
+    "status": "PROVISIONAL_SYNTHETIC_THRESHOLDS",
+    "NORMAL_PATTERN_max": 45.0,
+    "WATCH_DEVIATION_min": 45.0,
+    "WATCH_DEVIATION_max": 70.0,
+    "HIGH_DEVIATION_min": 70.0
+  },
+  "score_persistence": {
+    "score_history_length": 5,
+    "smoothing_method": "exponential_moving_average",
+    "smoothing_alpha": 0.35,
+    "decay_rate_per_normal_window": 0.25
+  }
+}

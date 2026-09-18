@@ -1,0 +1,42 @@
+======================================================================
+FLOCKSENSE AUDIO MODEL — FINAL TEST REPORT
+======================================================================
+
+Evaluated Model Checkpoint: C:\Users\silus\OneDrive\Desktop\Flocksense\models\audio_model_best.pth
+Best Validation Epoch:      3
+Compute Device:             cuda
+
+TEST DATASET SUMMARY:
+  * Total Test Windows:       901
+  * Test Files:               55 audio files
+  * Test Duration:            1,362.7 seconds (22.7 minutes)
+  * Unique Recording Groups:  8 groups (Strict zero leakage)
+
+PERFORMANCE METRICS:
+  * Overall Accuracy:         98.45%
+  * Macro Precision:          96.89%
+  * Macro Recall:             98.66%
+  * Macro F1-Score:           97.68%
+  * Weighted F1-Score:        98.47%
+
+PER-CLASS BREAKDOWN:
+  * Healthy   : Precision=100.00% | Recall=95.98% | F1=97.95% | Support=348
+  * Unhealthy : Precision=90.67% | Recall=100.00% | F1=95.10% | Support=136
+  * Noise     : Precision=100.00% | Recall=100.00% | F1=100.00% | Support=417
+
+EARLY-WARNING ANOMALY DETECTION METRICS (ABNORMAL vs NORMAL/NOISE):
+  * Abnormal Sensitivity (Recall): 100.00%
+  * Specificity:                   98.17%
+  * False Positive Rate (FPR):     1.83%
+  * False Negative Rate (FNR):     0.00%
+  * True Positives (TP):           136
+  * True Negatives (TN):           751
+  * False Positives (FP):          14
+  * False Negatives (FN):          0
+
+CONFUSION MATRIX:
+True\Pred    Healthy    Unhealthy  Noise     
+Healthy      334        14         0         
+Unhealthy    0          136        0         
+Noise        0          0          417       
+

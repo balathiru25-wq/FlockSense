@@ -1,0 +1,47 @@
+# FlockSense Audio Model Configuration
+seed: 42
+
+audio:
+  target_sample_rate: 16000
+  clip_duration_seconds: 3.0
+  target_samples: 48000  # 16000 * 3.0
+  mono: true
+  normalize_peak: true
+
+spectrogram:
+  n_fft: 1024
+  hop_length: 512
+  win_length: 1024
+  n_mels: 128
+  f_min: 50.0
+  f_max: 8000.0
+  power: 2.0
+  top_db: 80.0
+
+augmentation:
+  enabled_for_training: true
+  time_shift_fraction: 0.15
+  volume_gain_db: 3.0
+  freq_mask_param: 16
+  time_mask_param: 24
+  noise_factor: 0.003
+
+model:
+  architecture: "resnet18"
+  pretrained: true
+  in_channels: 1
+  num_classes: 3
+  dropout: 0.3
+
+training:
+  batch_size: 32
+  learning_rate: 0.0003
+  weight_decay: 0.0001
+  epochs: 30
+  early_stopping_patience: 7
+  checkpoint_dir: "models"
+  best_model_name: "audio_model_best.pth"
+
+risk_thresholds:
+  normal_watch_threshold: 0.35
+  watch_alert_threshold: 0.70

@@ -1,0 +1,7 @@
+timestamp,frame,track_id,event,previous_zone,current_zone,behavior,behavior_confidence
+0.033,1,1,TRACK_STARTED,,ZONE_3,unknown,0.0
+0.033,1,2,TRACK_STARTED,,ZONE_5,unknown,0.0
+0.033,1,3,TRACK_STARTED,,ZONE_1,unknown,0.0
+2.333,70,1,ZONE_TRANSITION,ZONE_3,ZONE_2,sitting,0.91
+2.667,80,1,BEHAVIOR_CHANGED,ZONE_3,ZONE_2,standing,0.91
+3.667,110,3,BEHAVIOR_CHANGED,ZONE_1,ZONE_1,preening,0.84

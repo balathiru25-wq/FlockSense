@@ -1,0 +1,32 @@
+# FlockSense Sensor Gateway Configuration
+# Default parameters for network streams, health checks, and AI sampling
+
+gateway:
+  name: "FlockSense Gateway Primary"
+  environment: "farm_edge"
+  auto_reconnect: true
+  reconnect_interval_sec: 5.0
+  health_check_interval_sec: 3.0
+  stream_timeout_sec: 4.0
+
+camera:
+  default_width: 1280
+  default_height: 720
+  preview_width: 640
+  preview_height: 360
+  preview_fps: 10
+  ai_inference_fps: 5
+  jpeg_quality: 75
+  reconnect_backoff_max_sec: 30.0
+
+microphone:
+  default_sample_rate: 16000
+  channels: 1
+  chunk_duration_sec: 4.0
+  analysis_interval_sec: 4.0
+  reconnect_backoff_max_sec: 30.0
+
+discovery:
+  onvif_multicast_ip: "239.255.255.250"
+  onvif_multicast_port: 3702
+  discovery_timeout_sec: 2.5

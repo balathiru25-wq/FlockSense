@@ -1,0 +1,26 @@
+{
+  "farm_name": "Main Poultry Farm",
+  "shed_id": "SHED_1",
+  "shed_name": "Broiler Shed A",
+  "flock_size": 1000,
+  "shed_dimensions": {
+    "length_m": 20.0,
+    "width_m": 8.0
+  },
+  "recommended": {
+    "cameras": 10,
+    "microphones": 5,
+    "zones": 10,
+    "basis": "PROTOTYPE_RECOMMENDATION",
+    "reason": "10 cameras, 5 microphones, and 10 zones suggested based on flock size of 1000 birds.",
+    "disclaimer": "This is a suggested starting setup based on flock size and shed coverage. It is an engineering recommendation for prototype testing, not a scientifically validated poultry requirement."
+  },
+  "configured": {
+    "cameras": 10,
+    "microphones": 5,
+    "zones": 10
+  },
+  "is_setup_completed": true,
+  "monitoring_active": true,
+  "step": 8
+}

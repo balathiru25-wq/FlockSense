@@ -1,0 +1,150 @@
+{"timestamp": 0.033, "frame": 1, "tracks": [{"track_id": 1, "zone": "ZONE_3", "behavior": "sitting", "behavior_confidence": 0.91, "behavior_age_seconds": 0.0, "position": [718, 135], "movement_rate": 0.0}, {"track_id": 2, "zone": "ZONE_5", "behavior": "feeding", "behavior_confidence": 0.88, "behavior_age_seconds": 0.0, "position": [480, 378], "movement_rate": 0.0}, {"track_id": 3, "zone": "ZONE_1", "behavior": "standing", "behavior_confidence": 0.84, "behavior_age_seconds": 0.0, "position": [192, 162], "movement_rate": 0.0}]}
+{"timestamp": 0.067, "frame": 2, "tracks": []}
+{"timestamp": 0.1, "frame": 3, "tracks": []}
+{"timestamp": 0.133, "frame": 4, "tracks": []}
+{"timestamp": 0.167, "frame": 5, "tracks": []}
+{"timestamp": 0.2, "frame": 6, "tracks": []}
+{"timestamp": 0.233, "frame": 7, "tracks": []}
+{"timestamp": 0.267, "frame": 8, "tracks": []}
+{"timestamp": 0.3, "frame": 9, "tracks": []}
+{"timestamp": 0.333, "frame": 10, "tracks": [{"track_id": 1, "zone": "ZONE_3", "behavior": "sitting", "behavior_confidence": 0.91, "behavior_age_seconds": 0.0, "position": [700, 135], "movement_rate": 57.6}, {"track_id": 2, "zone": "ZONE_5", "behavior": "feeding", "behavior_confidence": 0.88, "behavior_age_seconds": 0.0, "position": [480, 378], "movement_rate": 0.0}, {"track_id": 3, "zone": "ZONE_1", "behavior": "standing", "behavior_confidence": 0.84, "behavior_age_seconds": 0.0, "position": [192, 162], "movement_rate": 0.0}]}
+{"timestamp": 0.367, "frame": 11, "tracks": []}
+{"timestamp": 0.4, "frame": 12, "tracks": []}
+{"timestamp": 0.433, "frame": 13, "tracks": []}
+{"timestamp": 0.467, "frame": 14, "tracks": []}
+{"timestamp": 0.5, "frame": 15, "tracks": []}
+{"timestamp": 0.533, "frame": 16, "tracks": []}
+{"timestamp": 0.567, "frame": 17, "tracks": []}
+{"timestamp": 0.6, "frame": 18, "tracks": []}
+{"timestamp": 0.633, "frame": 19, "tracks": []}
+{"timestamp": 0.667, "frame": 20, "tracks": [{"track_id": 1, "zone": "ZONE_3", "behavior": "sitting", "behavior_confidence": 0.91, "behavior_age_seconds": 0.0, "position": [681, 135], "movement_rate": 57.6}, {"track_id": 2, "zone": "ZONE_5", "behavior": "feeding", "behavior_confidence": 0.88, "behavior_age_seconds": 0.0, "position": [480, 378], "movement_rate": 0.0}, {"track_id": 3, "zone": "ZONE_1", "behavior": "standing", "behavior_confidence": 0.84, "behavior_age_seconds": 0.0, "position": [192, 162], "movement_rate": 0.0}]}
+{"timestamp": 0.7, "frame": 21, "tracks": []}
+{"timestamp": 0.733, "frame": 22, "tracks": []}
+{"timestamp": 0.767, "frame": 23, "tracks": []}
+{"timestamp": 0.8, "frame": 24, "tracks": []}
+{"timestamp": 0.833, "frame": 25, "tracks": []}
+{"timestamp": 0.867, "frame": 26, "tracks": []}
+{"timestamp": 0.9, "frame": 27, "tracks": []}
+{"timestamp": 0.933, "frame": 28, "tracks": []}
+{"timestamp": 0.967, "frame": 29, "tracks": []}
+{"timestamp": 1.0, "frame": 30, "tracks": [{"track_id": 1, "zone": "ZONE_3", "behavior": "sitting", "behavior_confidence": 0.91, "behavior_age_seconds": 0.0, "position": [662, 135], "movement_rate": 57.6}, {"track_id": 2, "zone": "ZONE_5", "behavior": "feeding", "behavior_confidence": 0.88, "behavior_age_seconds": 0.0, "position": [480, 378], "movement_rate": 0.0}, {"track_id": 3, "zone": "ZONE_1", "behavior": "standing", "behavior_confidence": 0.84, "behavior_age_seconds": 0.0, "position": [192, 162], "movement_rate": 0.0}]}
+{"timestamp": 1.033, "frame": 31, "tracks": []}
+{"timestamp": 1.067, "frame": 32, "tracks": []}
+{"timestamp": 1.1, "frame": 33, "tracks": []}
+{"timestamp": 1.133, "frame": 34, "tracks": []}
+{"timestamp": 1.167, "frame": 35, "tracks": []}
+{"timestamp": 1.2, "frame": 36, "tracks": []}
+{"timestamp": 1.233, "frame": 37, "tracks": []}
+{"timestamp": 1.267, "frame": 38, "tracks": []}
+{"timestamp": 1.3, "frame": 39, "tracks": []}
+{"timestamp": 1.333, "frame": 40, "tracks": [{"track_id": 1, "zone": "ZONE_3", "behavior": "sitting", "behavior_confidence": 0.91, "behavior_age_seconds": 0.0, "position": [643, 135], "movement_rate": 57.6}, {"track_id": 2, "zone": "ZONE_5", "behavior": "feeding", "behavior_confidence": 0.88, "behavior_age_seconds": 0.0, "position": [480, 378], "movement_rate": 0.0}, {"track_id": 3, "zone": "ZONE_1", "behavior": "standing", "behavior_confidence": 0.84, "behavior_age_seconds": 0.0, "position": [192, 162], "movement_rate": 0.0}]}
+{"timestamp": 1.367, "frame": 41, "tracks": []}
+{"timestamp": 1.4, "frame": 42, "tracks": []}
+{"timestamp": 1.433, "frame": 43, "tracks": []}
+{"timestamp": 1.467, "frame": 44, "tracks": []}
+{"timestamp": 1.5, "frame": 45, "tracks": []}
+{"timestamp": 1.533, "frame": 46, "tracks": []}
+{"timestamp": 1.567, "frame": 47, "tracks": []}
+{"timestamp": 1.6, "frame": 48, "tracks": []}
+{"timestamp": 1.633, "frame": 49, "tracks": []}
+{"timestamp": 1.667, "frame": 50, "tracks": [{"track_id": 1, "zone": "ZONE_3", "behavior": "sitting", "behavior_confidence": 0.91, "behavior_age_seconds": 0.0, "position": [624, 135], "movement_rate": 57.6}, {"track_id": 2, "zone": "ZONE_5", "behavior": "feeding", "behavior_confidence": 0.88, "behavior_age_seconds": 0.0, "position": [480, 378], "movement_rate": 0.0}, {"track_id": 3, "zone": "ZONE_1", "behavior": "standing", "behavior_confidence": 0.84, "behavior_age_seconds": 0.0, "position": [192, 162], "movement_rate": 0.0}]}
+{"timestamp": 1.7, "frame": 51, "tracks": []}
+{"timestamp": 1.733, "frame": 52, "tracks": []}
+{"timestamp": 1.767, "frame": 53, "tracks": []}
+{"timestamp": 1.8, "frame": 54, "tracks": []}
+{"timestamp": 1.833, "frame": 55, "tracks": []}
+{"timestamp": 1.867, "frame": 56, "tracks": []}
+{"timestamp": 1.9, "frame": 57, "tracks": []}
+{"timestamp": 1.933, "frame": 58, "tracks": []}
+{"timestamp": 1.967, "frame": 59, "tracks": []}
+{"timestamp": 2.0, "frame": 60, "tracks": [{"track_id": 1, "zone": "ZONE_3", "behavior": "sitting", "behavior_confidence": 0.91, "behavior_age_seconds": 0.0, "position": [604, 135], "movement_rate": 57.6}, {"track_id": 2, "zone": "ZONE_5", "behavior": "feeding", "behavior_confidence": 0.88, "behavior_age_seconds": 0.0, "position": [480, 378], "movement_rate": 0.0}, {"track_id": 3, "zone": "ZONE_1", "behavior": "standing", "behavior_confidence": 0.84, "behavior_age_seconds": 0.0, "position": [192, 162], "movement_rate": 0.0}]}
+{"timestamp": 2.033, "frame": 61, "tracks": []}
+{"timestamp": 2.067, "frame": 62, "tracks": []}
+{"timestamp": 2.1, "frame": 63, "tracks": []}
+{"timestamp": 2.133, "frame": 64, "tracks": []}
+{"timestamp": 2.167, "frame": 65, "tracks": []}
+{"timestamp": 2.2, "frame": 66, "tracks": []}
+{"timestamp": 2.233, "frame": 67, "tracks": []}
+{"timestamp": 2.267, "frame": 68, "tracks": []}
+{"timestamp": 2.3, "frame": 69, "tracks": []}
+{"timestamp": 2.333, "frame": 70, "tracks": [{"track_id": 1, "zone": "ZONE_2", "behavior": "sitting", "behavior_confidence": 0.91, "behavior_age_seconds": 0.0, "position": [585, 135], "movement_rate": 57.6}, {"track_id": 2, "zone": "ZONE_5", "behavior": "feeding", "behavior_confidence": 0.88, "behavior_age_seconds": 0.0, "position": [480, 378], "movement_rate": 0.0}, {"track_id": 3, "zone": "ZONE_1", "behavior": "standing", "behavior_confidence": 0.84, "behavior_age_seconds": 0.0, "position": [192, 162], "movement_rate": 0.0}]}
+{"timestamp": 2.367, "frame": 71, "tracks": []}
+{"timestamp": 2.4, "frame": 72, "tracks": []}
+{"timestamp": 2.433, "frame": 73, "tracks": []}
+{"timestamp": 2.467, "frame": 74, "tracks": []}
+{"timestamp": 2.5, "frame": 75, "tracks": []}
+{"timestamp": 2.533, "frame": 76, "tracks": []}
+{"timestamp": 2.567, "frame": 77, "tracks": []}
+{"timestamp": 2.6, "frame": 78, "tracks": []}
+{"timestamp": 2.633, "frame": 79, "tracks": []}
+{"timestamp": 2.667, "frame": 80, "tracks": [{"track_id": 1, "zone": "ZONE_2", "behavior": "standing", "behavior_confidence": 0.91, "behavior_age_seconds": 0.0, "position": [566, 135], "movement_rate": 57.6}, {"track_id": 2, "zone": "ZONE_5", "behavior": "feeding", "behavior_confidence": 0.88, "behavior_age_seconds": 0.0, "position": [480, 378], "movement_rate": 0.0}, {"track_id": 3, "zone": "ZONE_1", "behavior": "standing", "behavior_confidence": 0.84, "behavior_age_seconds": 0.0, "position": [192, 162], "movement_rate": 0.0}]}
+{"timestamp": 2.7, "frame": 81, "tracks": []}
+{"timestamp": 2.733, "frame": 82, "tracks": []}
+{"timestamp": 2.767, "frame": 83, "tracks": []}
+{"timestamp": 2.8, "frame": 84, "tracks": []}
+{"timestamp": 2.833, "frame": 85, "tracks": []}
+{"timestamp": 2.867, "frame": 86, "tracks": []}
+{"timestamp": 2.9, "frame": 87, "tracks": []}
+{"timestamp": 2.933, "frame": 88, "tracks": []}
+{"timestamp": 2.967, "frame": 89, "tracks": []}
+{"timestamp": 3.0, "frame": 90, "tracks": [{"track_id": 1, "zone": "ZONE_2", "behavior": "standing", "behavior_confidence": 0.91, "behavior_age_seconds": 0.0, "position": [547, 135], "movement_rate": 57.6}, {"track_id": 2, "zone": "ZONE_5", "behavior": "feeding", "behavior_confidence": 0.88, "behavior_age_seconds": 0.0, "position": [480, 378], "movement_rate": 0.0}, {"track_id": 3, "zone": "ZONE_1", "behavior": "standing", "behavior_confidence": 0.84, "behavior_age_seconds": 0.0, "position": [192, 162], "movement_rate": 0.0}]}
+{"timestamp": 3.033, "frame": 91, "tracks": []}
+{"timestamp": 3.067, "frame": 92, "tracks": []}
+{"timestamp": 3.1, "frame": 93, "tracks": []}
+{"timestamp": 3.133, "frame": 94, "tracks": []}
+{"timestamp": 3.167, "frame": 95, "tracks": []}
+{"timestamp": 3.2, "frame": 96, "tracks": []}
+{"timestamp": 3.233, "frame": 97, "tracks": []}
+{"timestamp": 3.267, "frame": 98, "tracks": []}
+{"timestamp": 3.3, "frame": 99, "tracks": []}
+{"timestamp": 3.333, "frame": 100, "tracks": [{"track_id": 1, "zone": "ZONE_2", "behavior": "standing", "behavior_confidence": 0.91, "behavior_age_seconds": 0.0, "position": [528, 135], "movement_rate": 57.6}, {"track_id": 2, "zone": "ZONE_5", "behavior": "feeding", "behavior_confidence": 0.88, "behavior_age_seconds": 0.0, "position": [480, 378], "movement_rate": 0.0}, {"track_id": 3, "zone": "ZONE_1", "behavior": "standing", "behavior_confidence": 0.84, "behavior_age_seconds": 0.0, "position": [192, 162], "movement_rate": 0.0}]}
+{"timestamp": 3.367, "frame": 101, "tracks": []}
+{"timestamp": 3.4, "frame": 102, "tracks": []}
+{"timestamp": 3.433, "frame": 103, "tracks": []}
+{"timestamp": 3.467, "frame": 104, "tracks": []}
+{"timestamp": 3.5, "frame": 105, "tracks": []}
+{"timestamp": 3.533, "frame": 106, "tracks": []}
+{"timestamp": 3.567, "frame": 107, "tracks": []}
+{"timestamp": 3.6, "frame": 108, "tracks": []}
+{"timestamp": 3.633, "frame": 109, "tracks": []}
+{"timestamp": 3.667, "frame": 110, "tracks": [{"track_id": 1, "zone": "ZONE_2", "behavior": "standing", "behavior_confidence": 0.91, "behavior_age_seconds": 0.0, "position": [508, 135], "movement_rate": 57.6}, {"track_id": 2, "zone": "ZONE_5", "behavior": "feeding", "behavior_confidence": 0.88, "behavior_age_seconds": 0.0, "position": [480, 378], "movement_rate": 0.0}, {"track_id": 3, "zone": "ZONE_1", "behavior": "preening", "behavior_confidence": 0.84, "behavior_age_seconds": 0.0, "position": [192, 162], "movement_rate": 0.0}]}
+{"timestamp": 3.7, "frame": 111, "tracks": []}
+{"timestamp": 3.733, "frame": 112, "tracks": []}
+{"timestamp": 3.767, "frame": 113, "tracks": []}
+{"timestamp": 3.8, "frame": 114, "tracks": []}
+{"timestamp": 3.833, "frame": 115, "tracks": []}
+{"timestamp": 3.867, "frame": 116, "tracks": []}
+{"timestamp": 3.9, "frame": 117, "tracks": []}
+{"timestamp": 3.933, "frame": 118, "tracks": []}
+{"timestamp": 3.967, "frame": 119, "tracks": []}
+{"timestamp": 4.0, "frame": 120, "tracks": [{"track_id": 1, "zone": "ZONE_2", "behavior": "standing", "behavior_confidence": 0.91, "behavior_age_seconds": 0.0, "position": [489, 135], "movement_rate": 57.6}, {"track_id": 2, "zone": "ZONE_5", "behavior": "feeding", "behavior_confidence": 0.88, "behavior_age_seconds": 0.0, "position": [480, 378], "movement_rate": 0.0}, {"track_id": 3, "zone": "ZONE_1", "behavior": "preening", "behavior_confidence": 0.84, "behavior_age_seconds": 0.0, "position": [192, 162], "movement_rate": 0.0}]}
+{"timestamp": 4.033, "frame": 121, "tracks": []}
+{"timestamp": 4.067, "frame": 122, "tracks": []}
+{"timestamp": 4.1, "frame": 123, "tracks": []}
+{"timestamp": 4.133, "frame": 124, "tracks": []}
+{"timestamp": 4.167, "frame": 125, "tracks": []}
+{"timestamp": 4.2, "frame": 126, "tracks": []}
+{"timestamp": 4.233, "frame": 127, "tracks": []}
+{"timestamp": 4.267, "frame": 128, "tracks": []}
+{"timestamp": 4.3, "frame": 129, "tracks": []}
+{"timestamp": 4.333, "frame": 130, "tracks": [{"track_id": 1, "zone": "ZONE_2", "behavior": "standing", "behavior_confidence": 0.91, "behavior_age_seconds": 0.0, "position": [470, 135], "movement_rate": 57.6}, {"track_id": 2, "zone": "ZONE_5", "behavior": "feeding", "behavior_confidence": 0.88, "behavior_age_seconds": 0.0, "position": [480, 378], "movement_rate": 0.0}, {"track_id": 3, "zone": "ZONE_1", "behavior": "preening", "behavior_confidence": 0.84, "behavior_age_seconds": 0.0, "position": [192, 162], "movement_rate": 0.0}]}
+{"timestamp": 4.367, "frame": 131, "tracks": []}
+{"timestamp": 4.4, "frame": 132, "tracks": []}
+{"timestamp": 4.433, "frame": 133, "tracks": []}
+{"timestamp": 4.467, "frame": 134, "tracks": []}
+{"timestamp": 4.5, "frame": 135, "tracks": []}
+{"timestamp": 4.533, "frame": 136, "tracks": []}
+{"timestamp": 4.567, "frame": 137, "tracks": []}
+{"timestamp": 4.6, "frame": 138, "tracks": []}
+{"timestamp": 4.633, "frame": 139, "tracks": []}
+{"timestamp": 4.667, "frame": 140, "tracks": [{"track_id": 1, "zone": "ZONE_2", "behavior": "standing", "behavior_confidence": 0.91, "behavior_age_seconds": 0.0, "position": [451, 135], "movement_rate": 57.6}, {"track_id": 2, "zone": "ZONE_5", "behavior": "feeding", "behavior_confidence": 0.88, "behavior_age_seconds": 0.0, "position": [480, 378], "movement_rate": 0.0}, {"track_id": 3, "zone": "ZONE_1", "behavior": "preening", "behavior_confidence": 0.84, "behavior_age_seconds": 0.0, "position": [192, 162], "movement_rate": 0.0}]}
+{"timestamp": 4.7, "frame": 141, "tracks": []}
+{"timestamp": 4.733, "frame": 142, "tracks": []}
+{"timestamp": 4.767, "frame": 143, "tracks": []}
+{"timestamp": 4.8, "frame": 144, "tracks": []}
+{"timestamp": 4.833, "frame": 145, "tracks": []}
+{"timestamp": 4.867, "frame": 146, "tracks": []}
+{"timestamp": 4.9, "frame": 147, "tracks": []}
+{"timestamp": 4.933, "frame": 148, "tracks": []}
+{"timestamp": 4.967, "frame": 149, "tracks": []}
+{"timestamp": 5.0, "frame": 150, "tracks": [{"track_id": 1, "zone": "ZONE_2", "behavior": "standing", "behavior_confidence": 0.91, "behavior_age_seconds": 0.0, "position": [432, 135], "movement_rate": 57.6}, {"track_id": 2, "zone": "ZONE_5", "behavior": "feeding", "behavior_confidence": 0.88, "behavior_age_seconds": 0.0, "position": [480, 378], "movement_rate": 0.0}, {"track_id": 3, "zone": "ZONE_1", "behavior": "preening", "behavior_confidence": 0.84, "behavior_age_seconds": 0.0, "position": [192, 162], "movement_rate": 0.0}]}

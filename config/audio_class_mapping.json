@@ -1,0 +1,36 @@
+{
+  "original_classes": ["Healthy", "Unhealthy", "Noise"],
+  "num_classes": 3,
+  "class_to_idx": {
+    "Healthy": 0,
+    "Unhealthy": 1,
+    "Noise": 2
+  },
+  "idx_to_class": {
+    "0": "Healthy",
+    "1": "Unhealthy",
+    "2": "Noise"
+  },
+  "flocksense_early_warning_mapping": {
+    "Healthy": {
+      "state": "NORMAL",
+      "risk_level": "LOW",
+      "description": "Flock acoustic pattern within normal vocalization baseline"
+    },
+    "Unhealthy": {
+      "state": "ABNORMAL",
+      "risk_level": "HIGH",
+      "description": "Significant acoustic anomaly / respiratory distress sounds detected"
+    },
+    "Noise": {
+      "state": "NORMAL",
+      "risk_level": "NEUTRAL",
+      "description": "Ambient shed machinery, feeder, or ventilation equipment noise"
+    }
+  },
+  "provisional_risk_thresholds": {
+    "green_normal_max": 0.35,
+    "yellow_watch_max": 0.70,
+    "red_alert_min": 0.70
+  }
+}
